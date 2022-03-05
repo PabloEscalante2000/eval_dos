@@ -35,15 +35,10 @@ class Header extends React.Component {
                         <Link to="/clientes">Clientes</Link>    
                     </a>
                     </li>
-                    <li className="nav-item">
-                    <a className="nav-link ">
-                        <Link to="/otros">Otros</Link>    
-                    </a>
-                    </li>
                 </ul>
                 </div>
             </div>
-            <span class="d-flex">
+            <span className="d-flex">
                 GET A FREE QUOTE
             </span>
             </nav>

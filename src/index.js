@@ -14,7 +14,6 @@ import {
 
 import Clientes from "./pages/Clientes.js";
 import Inicio from "./pages/Inicio.js";
-import Otros from "./pages/Otros.js";
 import Proveedores from "./pages/Proveedores.js";
 import Header from './Header.js';
 
@@ -25,7 +24,6 @@ ReactDOM.render(
         <Route exact path="/" element={<Inicio/>}/>
         <Route exact path="/proveedores" element={<Proveedores/>}/>
         <Route exact path="/clientes" element={<Clientes/>}/>
-        <Route exact path="/otros" element={<Otros/>}/>
       </Routes>
     </Router>,
   document.getElementById('root')
