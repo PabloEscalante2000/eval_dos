@@ -1,0 +1,40 @@
+ @font-face {
+     font-family: "Monteserract-Variable";
+     src: url("./font/Montserrat-VariableFont_wght.ttf");
+ }
+ 
+ nav a {
+    color: #666666;
+    text-decoration: none;
+    font-family: "Monteserract-Variable", sans-serif;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ nav a:hover {
+    color: #b14212;
+ }
+
+ nav a:focus {
+     color: #C54A15;
+ }
+
+ nav span {
+    font-family: "Monteserract-Variable", sans-serif;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 5px solid #C54A15;
+    text-align: center;
+    margin-left: 12px;
+ }
+
+nav span:hover {
+     color: white;
+     background-color: #C54A15;
+ }
+
